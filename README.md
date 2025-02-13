@@ -20,3 +20,15 @@ https://testnet.gokite.ai/?r=R779s7wD
 2、脚本使用教程
 运行脚本->输入钱包地址->ai自动互交
 
+注意：单ip运行。需要每个窗口独立IP的请使用下面的命令的
+Mac和Linux
+```bash
+export http_proxy="http://127.0.0.1:7005"
+export https_proxy="http://127.0.0.1:7005"
+```
+win
+```bat
+$env:http_proxy="http://192.168.2.7:7001"
+$env:https_proxy="http://192.168.2.7:7001"
+```
+
